@@ -1,0 +1,136 @@
+.home{
+    background-image: url(photo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.home h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 170px;
+    font-size: 3rem;
+}
+.home button{
+    margin-left: 380px;
+    font-size: 30px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #0f9d58;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+nav a {
+  color: white;
+  margin-right: 25px;
+  text-decoration: none;
+justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+sectio {
+  
+  padding-top:0px;
+  border-radius: 10px;
+  border: 4px solid purple;
+  width: 50%; 
+  padding-bottom: 10px;
+}
+ 
+.project {
+  background: #eaeaea;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+section{
+  width: 100%;
+  border: 4px solid purple;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.one{
+  grid-column: 1/-1;
+}
+.six{
+  grid-column: 1/-1 ;
+}
+    a:hover{
+        text-decoration: underline;
+        color: aqua;
+    }
+*{
+    text-align: center;
+margin: 5px;
+}
+h2{
+    background-color: palegreen;
+    
+}
+.link{
+    list-style: none;
+
+}
+
+.about{
+  padding-bottom: 50px;
+}
+.school{
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: yellowgreen;
+}
+video{
+  width: 500px;
+}
+.four {
+width: 600px;
+}
+.social-link{
+ gap: 10px;
+align-items: center;
+  text-decoration: none;
+}
+.social-link img{
+  margin-bottom: 5px;
+}
